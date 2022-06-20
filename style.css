@@ -1,0 +1,30 @@
+html {
+    cursor: none;
+    background-color: #2d2b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    margin: o;
+    background-color: #9727FF;
+    overflow: hidden;
+}
+
+.cursor {
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #f44336;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.cursor__follower {
+    transition: transform .4s;
+    width: 6px;
+    height: 6px;
+}
